@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="todo.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    </head>
+    <body>
+        
+        <main>
+        <div class = "container">
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Data Hub</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">Achievement</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Timer</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">To-do</button>
+
+              </div>
+            <input type="text" placeholder="Add a task" id = "Input" class="txt">
+            Timer <input type="checkbox">
+        <div class = "inprogress">
+            <h3>In Progress...</h3>
+
+        </div>
+        <div class="notcomp">
+            <h3>Not Completed</h3>
+           
+
+        </div>
+        <div class="completed">
+            <h3>Completed</h3>
+           
+        </div>
+    </div>
+
+</main>
+
+        <script src="todo.js"></script>
+    </body>
+</html>
